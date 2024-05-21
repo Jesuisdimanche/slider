@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.slidercon{
+    height: max-content;
+    overflow: hidden;
+}
+.slider{
+    height: max-content;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 800%;
+    overflow: hidden;
+}
+.slide{
+    width: 12.5%;
+    height: 600px;
+    position: relative;
+    animation: slider 8s infinite;
+    transition: 1s ease;
+
+}
+@keyframes slider {
+    0%{
+        right: 0;
+    }
+    12.5%{
+        right: 0%;
+    }
+    12.6%{
+        right: 13%;
+    }
+    26%{
+        right: 13%;
+    }
+    27%{
+        right: 26%;
+    }
+    75%{
+        right: 50%;
+    }
+    76%{
+        right: 75%;
+    }
+    100%{
+        right: 75%;
+    }
+    
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}

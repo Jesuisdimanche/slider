@@ -1,0 +1,41 @@
+.menu {
+    background-color: blue;
+    text-align:center ;
+    margin: 0;
+    padding: 2%;
+
+}
+.menu p span{
+    position: relative;
+    word-spacing: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu p{
+    word-spacing: 40px;
+    font-size: 20px;
+}
+.menu p button{
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+.twocolumn {
+    background-color: blanchedalmond;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    width: 10px;
+
+}
+.twocolumn 1 {
+    position: relative
+;
+
+}
